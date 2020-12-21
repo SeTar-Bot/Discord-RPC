@@ -31,7 +31,7 @@ a Discord RPC for everyone, easy to use!
 
 - Download this Git Repo or clone it using [Git Bash](https://git-scm.com/downloads): `git clone https://github.com/EhsanFox/Discord-RPC.git && cd Discord-RPC`
 
-- Launch the `App.bat` and import your Discord App Information as the app asks
+- Launch the `run.bat` and import your Discord App Information as the app asks
 
 And Look who got the fancy RPC... : )
 

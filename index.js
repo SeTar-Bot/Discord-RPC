@@ -20,7 +20,18 @@ RPC.on("ready", () => {
         smallImageText: CFG.RPC.smallImageText,
         buttons: CFG.RPC.buttons,
     };
-    RPC.setActivity(Inputs)
+    client.request('SET_ACTIVITY', {
+        pid: process.pid,
+        activity:{
+            assets: {
+                large_image: Inputs.largeImageKey,
+                small_image: Inputs.smallImageKey,
+            },
+            details: Inputs.details,
+            state: Inputs.state,
+            buttons: Inputs.buttons,
+        }
+    })
     .catch(e => {
         console.log(red('[RPC]:') + ' an Error showed up in the script!\nMake Sure you configured your RPC inputs!\nMore Information: ');
         console.error(e);

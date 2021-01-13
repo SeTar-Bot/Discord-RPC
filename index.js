@@ -18,6 +18,7 @@ RPC.on("ready", () => {
         largeImageText: CFG.RPC.largeImageText,
         smallImageKey: CFG.RPC.smallImageKey,
         smallImageText: CFG.RPC.smallImageText,
+        buttons: CFG.RPC.buttons,
     };
     RPC.setActivity(Inputs)
     .catch(e => {

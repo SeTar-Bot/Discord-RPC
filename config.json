@@ -8,7 +8,12 @@
         "largeImageText":"",
         "smallImageKey":"",
         "smallImageText":"",
-        "timestamp":false
+        "timestamp":false,
+        "buttons": 
+            [
+                { "label": "text1", "url": "http://3tarbot.ir/" },
+                { "label": "text2", "url": "http://3tarbot.ir/" },
+            ]
     },
     "executed": false
 }

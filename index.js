@@ -25,7 +25,9 @@ RPC.on("ready", () => {
         activity:{
             assets: {
                 large_image: Inputs.largeImageKey,
+                large_text: Inputs.largeImageText,
                 small_image: Inputs.smallImageKey,
+                small_text: Inputs.smallImageText
             },
             details: Inputs.details,
             state: Inputs.state,
